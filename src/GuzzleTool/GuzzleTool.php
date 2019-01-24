@@ -99,12 +99,15 @@ class GuzzleTool
                 'form_params' => $params,
                 'timeout'     => $timeout,
             ];
-
+            $token ='';
+            if(!empty($_SERVER['HTTP_AUTHORIZATION'])){
+                $token =$_SERVER['HTTP_AUTHORIZATION'];
+            }
             if (!empty($data['headers'])) {
                 $options['headers'] = $data['headers'];
             } else {
                 $options['headers'] = [
-                    'Authorization' => 'Bearer ' . $_SERVER['HTTP_AUTHORIZATION']??'',
+                    'Authorization' => 'Bearer ' . $token,
                     'Content-Type'  => 'application/json'
                 ];
             }
