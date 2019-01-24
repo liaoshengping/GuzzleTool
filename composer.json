@@ -1,7 +1,7 @@
 {
     "name": "liaosp/guzzle-tool",
     "description": "curl",
-    "type": "composer-plugin",
+    "type": "library",
     "authors": [
         {
             "name": "liaosp",
