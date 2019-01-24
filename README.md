@@ -1,5 +1,5 @@
 # GuzzleTool
-多资源网络请求，Composer包
+多资源网络请求，用于微服务请求，Composer包
 
 安装依赖
 
