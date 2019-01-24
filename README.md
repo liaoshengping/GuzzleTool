@@ -9,10 +9,10 @@
 比如在yaconf 中配置：
 ```
 [resources]
-goods='http://devzuul.haoxiaec.com/api/php/product'
-order='http://devzuul.haoxiaec.com/api/php/order'
-oauth='http://devoauth.haoxiaec.com'
-personal='http://devzuul.haoxiaec.com/api/authorize'
+goods='http://devzuul.22.com/api/php/product'
+order='http://devzuul.22.com/api/php/order'
+oauth='http://devoauth.22.com'
+personal='http://devzuul.22.com/api/authorize'
 ```
 
 
@@ -22,12 +22,6 @@ class Resources extends ResourcesTool
     private $resources;
     /*
      * 微服务url 资源。
-     * eg：
-     *
-     *  goods='http://devzuul.22.com/api/php/product'
-        order='http://devzuul.22.com/api/php/order'
-        oauth='http://devoauth.22.com'
-        personal='http://devzuul.22.com/api/authorize'
      *
      */
     public function __construct($resources = 'goods')
