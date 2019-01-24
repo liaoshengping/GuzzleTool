@@ -1,5 +1,6 @@
 # GuzzleTool
 多资源网络请求，Composer包
+>composer require liaosp/guzzle-tool
 
 使用方法：继承这个类。
 
