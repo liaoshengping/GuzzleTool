@@ -1,5 +1,5 @@
 # GuzzleTool
-多资源网络请求，Composer包
+多资源网络请求，用于微服务请求，Oauth2.0 请求，Composer包
 
 安装依赖
 
@@ -41,3 +41,11 @@ class Resources extends ResourcesTool
 ```
 使用方法：
 (new Resources('personal'))->json()->get('/users/WARE/add');
+
+更新日志：
+
+1.0 测试环境
+
+2.0 生产环境
+
+
