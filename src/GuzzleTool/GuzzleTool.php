@@ -107,7 +107,7 @@ class GuzzleTool
                 $options['headers'] = $data['headers'];
             } else {
                 $options['headers'] = [
-                    'Authorization' => 'Bearer ' . $token,
+                    'Authorization' => $token,
                     'Content-Type'  => 'application/json'
                 ];
             }
