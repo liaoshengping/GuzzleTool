@@ -42,10 +42,14 @@ class Resources extends ResourcesTool
 使用方法：
 (new Resources('personal'))->json()->get('/users/WARE/add');
 
+请求头名：   Authorization
+
 更新日志：
 
 1.0 测试环境
 
 2.0 生产环境
+
+2.0.2 去掉 Bearer 拼接
 
 
