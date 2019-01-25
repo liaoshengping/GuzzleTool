@@ -119,7 +119,7 @@ class GuzzleTool
             $result = $response->getBody();
             return json_decode($result, true);
         } catch (ClientException $e) {
-            throw new Exception($e->getMessage());
+            throw new \Exception($e->getMessage());
         }
     }
 }
