@@ -43,7 +43,8 @@ class Resources extends ResourcesTool
 (new Resources('personal'))->json()->get('/users/WARE/add');
 
 更新日志：
-1.0
+
+1.0 测试环境
 
 2.0 生产环境
 
